@@ -480,7 +480,7 @@ def analysis(  # pylint: disable=too-many-arguments,too-many-locals,too-many-bra
     random_state=42,
     test_size=0.2,
     trained_model=None,
-    save_model=False,
+    save_model=True,
 ):
     """Main function to classify graphs and plot results.
 
